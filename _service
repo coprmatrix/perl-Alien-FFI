@@ -1,0 +1,12 @@
+<services>
+  <service name="obs_scm">
+    <param name="filename">Alien-FFI</param>
+    <param name="scm">git</param>
+    <param name="url">https://src.fedoraproject.org/rpms/perl-Alien-FFI.git</param>
+    <param name="extract">*.*</param>
+    <param name="revision">rawhide</param>
+    <param name="without-version">enable</param>
+  </service>
+  <service name="download_files">
+  </service>
+</services>
